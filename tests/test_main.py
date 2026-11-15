@@ -21,3 +21,8 @@ def test_nope():
     response = client.get("/nope")
     assert response.status_code == 404
     assert response.json() == {"detail": "Not Found"}
+
+
+def test_create_item_requires_name():
+    response = client.post("/items", json={})
+    assert response.status_code == 422

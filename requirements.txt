@@ -12,3 +12,12 @@ starlette==1.7.0
 typing-inspection==0.4.4
 typing_extensions==4.16.0
 uvicorn==0.54.0
+
+alembic==1.20.1
+asyncpg==0.32.0
+greenlet==3.5.6
+Mako==1.4.3
+MarkupSafe==3.0.3
+pydantic-settings==2.13.1
+python-dotenv==1.2.2
+SQLAlchemy==2.1.8

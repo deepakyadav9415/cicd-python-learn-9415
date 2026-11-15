@@ -3,3 +3,4 @@ pytest
 httpx2
 ruff
 pytest-cov
+pytest-asyncio==1.5.0
