@@ -1,10 +1,10 @@
+from fastapi import Depends, FastAPI
+from sqlalchemy import select, text
+from sqlalchemy.ext.asyncio import AsyncSession
+
 from app.db.db import get_db
 from app.models.item import Item
 from app.schema.item import ItemIn
-from fastapi import Depends, FastAPI
-from pydantic import BaseModel
-from sqlalchemy import select, text
-from sqlalchemy.ext.asyncio import AsyncSession
 
 app = FastAPI()
 
